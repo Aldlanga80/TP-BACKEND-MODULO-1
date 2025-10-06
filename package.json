@@ -1,0 +1,35 @@
+{
+  "name": "tp-backend-modulo-1",
+  "version": "1.0.0",
+  "description": "Trabajo Practico  Evaluativo Backend Modulo 1 ",
+  "keywords": [
+    "typescript",
+    "ts-node-dev",
+    "developer-backend",
+    "node"
+  ],
+  "homepage": "https://github.com/Aldlanga80/TP-BACKEND-MODULO-1#readme",
+  "bugs": {
+    "url": "https://github.com/Aldlanga80/TP-BACKEND-MODULO-1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aldlanga80/TP-BACKEND-MODULO-1.git"
+  },
+  "license": "ISC",
+  "author": "Aldo Langa",
+  "type": "modules",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "mongoose": "^8.19.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
