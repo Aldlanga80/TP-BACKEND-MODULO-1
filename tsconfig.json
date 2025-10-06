@@ -1,26 +1,11 @@
 {
   "compilerOptions": {
-    "module": "CommonJS",
+    "module": "ESNext",
     "target": "ESNext",
-    "types": [
-      "node",
-      "mongoose"
-    ],
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "baseUrl": ".",
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
-    "strict": true,
     "verbatimModuleSyntax": true,
-    "isolatedModules": true,
-    "noUncheckedSideEffectImports": true,
-    "moduleDetection": "force",
-    "skipLibCheck": true
+    "outDir": "./dist",
+    "rootDir": "./src"
   }
 }
