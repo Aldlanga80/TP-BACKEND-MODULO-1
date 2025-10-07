@@ -1,8 +1,8 @@
 import Product from "../models/product";
 import type { IProduct } from "../models/product";
 
-export const createProduct = async () => {
-  const product = new Product();
+export const createProduct = async (data: IProduct) => {
+  const product = new Product(data);
   return await product.save();
 };
 
