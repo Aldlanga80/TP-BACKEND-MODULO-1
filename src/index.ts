@@ -6,7 +6,7 @@ import {
   getProductsById,
   updateProduct,
   deleteProduct,
-} from "./services/product.service";
+} from './services/product.service.js';
 
 dotenv.config();
 

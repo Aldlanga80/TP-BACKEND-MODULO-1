@@ -5,7 +5,11 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "verbatimModuleSyntax": true,
-    "outDir": "./dist",
-    "rootDir": "./src"
-  }
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true
+  },
+  "include": [
+    "src"
+  ]
 }
